@@ -1,0 +1,76 @@
+.grid-container{
+    display: grid;
+    height: 100vh;
+    margin: 3%;
+    gap:3%;
+    justify-content:space-around;
+    align-content:space-around;
+    grid-template-rows: 30% 30%;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.grid-container>div{
+    border-radius: 3mm;  
+    display: flex;
+    font-size: 70%;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid-item1{
+    background-image: linear-gradient(to left, #cc2b5e , #753a88);
+    color: whitesmoke;
+    padding: 10% 5%;
+    margin: 0%;
+    padding: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link{
+    color: #AA336A;
+    font-family:sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+image{
+    position: relative;
+    background-position-x: left;
+    display: block;
+}
+
+span.image{
+    background-image: linear-gradient(to top,#403b4a,
+#e7e9bb);
+    width: min-content;
+    border-radius: 100%;
+    padding: 2%;
+}
+
+.grid-container>div>h3{
+    font-family:sans-serif;
+}
+
+.grid-container>div>p{
+    color: darkgrey;
+    font-family:sans-serif;
+}
+
+#grid1
+{
+    align-content: flex-start;
+}
+
+.grid-container>div:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
